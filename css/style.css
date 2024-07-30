@@ -45,16 +45,31 @@ h1 {
     width: 100px;
     height: 100px;
     background-color: rgb(94, 157, 210);
-    margin: 5px;
-    display: inline-block;
+   
+    
 }
 .flipped {
     visibility:visible;
 }
 #button{
     width: 100%;
+    margin-top: 20px;
     text-align: center;
 }
+#reset-button{
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+#timer{
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+#message{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
 @media  (max-width:760px) {
     body{
         background-color: aquamarine;
@@ -63,12 +78,13 @@ h1 {
         width: 80px;
         height: 80px;
         border: 1px solid black;
+        
     }
     #game-board{
         grid-template-columns: repeat(4, 80px);
         margin: 0px;
         display: grid;
-        gap: 0px;
+        gap: 5px;
 
     }
     
